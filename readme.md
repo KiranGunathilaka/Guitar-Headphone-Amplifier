@@ -55,7 +55,7 @@ It runs either on dual 9 V batteries or a 12 V DC adapter and offers two indepen
 | Sub-assembly       | Snapshot           |                                       
 |-------------|--------------------------------------------|
 | **Schematic Design** | ![Schematic](Images/SchematicAltium.png)                    |
-| **Final Enclosure** | ![Rendered Enclosure](images/enclosure.png) | 
+| **Final Enclosure** | ![Rendered Enclosure](Images/enclosure.png) | 
 
 For a complete bill of materials, simulated plots, and detailed design reasoning, see **[`Project_Report_3.pdf`](./Project_Report_3.pdf)** in the repository root.
 
