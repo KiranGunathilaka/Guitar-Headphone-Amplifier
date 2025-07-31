@@ -1,0 +1,225 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Nuwan/Documents/Pspice/allegro/new_idea.brd                        |
+|                                                    Thu Oct 17 21:07:06 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C2.1           C4.1           R5.1           
+                                 R6.1           R13.1          R14.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00150       pins ADDED TO this new net
+                                 C1.1           R2.2           R3.1           
+                                 U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00197       pins ADDED TO this new net
+                                 C1.2           C5.1           Q2.3           
+                                 Q3.1           R7.1           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N001440      pins ADDED TO this new net
+                                 C2.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03941       pins ADDED TO this new net
+                                 C3.1           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03957       pins ADDED TO this new net
+                                 C3.2           R4.2           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03967       pins ADDED TO this new net
+                                 C4.2           R4.1           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04664       pins ADDED TO this new net
+                                 Q3.3           R7.2           R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04790       pins ADDED TO this new net
+                                 Q3.2           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04794       pins ADDED TO this new net
+                                 C5.2           Q1.2           Q4.3           
+                                 R8.2           R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04851       pins ADDED TO this new net
+                                 Q2.1           R10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04884       pins ADDED TO this new net
+                                 Q4.1           R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05005       pins ADDED TO this new net
+                                 Q1.1           R12.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05009       pins ADDED TO this new net
+                                 D1.1           Q1.3           R13.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Nuwan/Documents/Pspice/allegro/new_idea.brd                        |
+|                                                    Thu Oct 17 21:07:06 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N06444       pins ADDED TO this new net
+                                 D1.2           D2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT          pins ADDED TO this new net
+                                 R2.1           R10.2          R11.1          
+                                 R14.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 D2.2           Q4.2           R12.2          
+                                 U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VEE          pins ADDED TO this new net
+                                 Q2.2           U1.4           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Nuwan/Documents/Pspice/allegro/new_idea.brd                        |
+|                                                    Thu Oct 17 21:07:06 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4148_DAX2DO35_1N4148
+ BD139_TO126_BD139
+ BD140_TO92_BD140
+ C_CAP196_2.2U
+ C_CAP196_10U
+ C_CAP196_33P
+ C_CAP196_680P
+ NE5532_0_DIP8_3_NE5532
+ R_AXRC05_1K
+ R_AXRC05_2.2K
+ R_AXRC05_4.7K
+ R_AXRC05_10K
+ R_AXRC05_20K
+ R_AXRC05_1000K
+ R_AXRC05_1
+ R_AXRC05_10
+ R_AXRC05_16
+ R_AXRC05_100
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Nuwan/Documents/Pspice/allegro/new_idea.brd                        |
+|                                                    Thu Oct 17 21:07:06 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_CAP196_33P          
+ C2                  C_CAP196_10U          
+ C3                  C_CAP196_2.2U         
+ C4                  C_CAP196_680P         
+ C5                  C_CAP196_10U          
+ D1                  1N4148_DAX2DO35_1N4148 
+ D2                  1N4148_DAX2DO35_1N4148 
+ Q1                  BD140_TO92_BD140      
+ Q2                  BD140_TO92_BD140      
+ Q3                  BD139_TO126_BD139     
+ Q4                  BD139_TO126_BD139     
+ R2                  R_AXRC05_20K          
+ R3                  R_AXRC05_10K          
+ R4                  R_AXRC05_1K           
+ R5                  R_AXRC05_1000K        
+ R6                  R_AXRC05_10K          
+ R7                  R_AXRC05_4.7K         
+ R8                  R_AXRC05_2.2K         
+ R9                  R_AXRC05_1            
+ R10                 R_AXRC05_10           
+ R11                 R_AXRC05_10           
+ R12                 R_AXRC05_100          
+ R13                 R_AXRC05_10K          
+ R14                 R_AXRC05_16           
+ U1                  NE5532_0_DIP8_3_NE5532 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Nuwan/Documents/Pspice/allegro/new_idea.brd                        |
+|                                                    Thu Oct 17 21:07:06 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           XY             (480,460)
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           XY             (300,530)
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           XY             (100,420)
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           XY             (260,450)
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           XY             (650,290)
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D1.1                           XY             (380,110)
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           XY             (380,80)
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ Q1.1                           XY             (540,150)
+ Q2.1                           PRIM_FILE      .\pstchip.dat
+ Q2.1                           XY             (740,410)
+ Q3.1                           PRIM_FILE      .\pstchip.dat
+ Q3.1                           XY             (540,330)
+ Q4.1                           PRIM_FILE      .\pstchip.dat
+ Q4.1                           XY             (740,190)
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           XY             (600,530)
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           XY             (330,530)
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           XY             (220,420)
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           XY             (50,440)
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           XY             (140,440)
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           XY             (450,360)
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           XY             (450,300)
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           XY             (550,280)
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R10.2                          XY             (750,330)
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          XY             (750,260)
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          XY             (550,90)
+ R13.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Nuwan/Documents/Pspice/allegro/new_idea.brd                        |
+|                                                    Thu Oct 17 21:07:06 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R13.2                          XY             (380,190)
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          XY             (910,320)
+ U1.8                           PRIM_FILE      .\pstchip.dat
+ U1.8                           XY             (390,420)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      57                                        |
+|       Comp definitions added:      18                                        |
+|       Components added      :      25                                        |
+|       Slot property added   :      50                                        |
+|                                                                              |
+|   Total ECO changes reported:     150                                        |
+|------------------------------------------------------------------------------|

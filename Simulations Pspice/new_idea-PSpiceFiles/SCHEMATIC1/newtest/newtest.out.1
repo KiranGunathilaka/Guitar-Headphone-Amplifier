@@ -1,0 +1,73 @@
+
+**** 10/17/24 20:46:17 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-newtest"  [ C:\Users\Nuwan\Documents\Pspice\new_idea-PSpiceFiles\SCHEMATIC1\newtest.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "newtest.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NEW_IDEA
+X_U1A         N03967 N00150 N00197 VCC VEE awbne5532_3 PARAMS:                 
++                  
+R_R2         OUT N00150  20k TC=0,0 
+R_R3         N00150 N001440  100k TC=0,0 
+C_C1         N00150 N00197  0  TC=0,0 
+----------------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+C_C2         0 N001440  10u  TC=0,0 
+R_R4         N03967 N03957  1k TC=0,0 
+C_C3         N03941 N03957  2.2u  TC=0,0 
+R_R6         0 N03957  10k TC=0,0 
+V_V3         N03941 0  AC 1
++SIN 0 300m 1000 0 0 0
+C_C4         0 N03967  680p  TC=0,0 
+R_R5         0 N03941  1000k TC=0,0 
+X_Q1         N04794 N05009 N05005 awbbd140 PARAMS:                             
++                
+X_Q2         VEE N00197 N04851 awbbd140 PARAMS:                                
++             
+X_Q3         N04790 N04664 N00197 awbbd139 PARAMS:                             
++                
+X_Q4         VCC N04794 N04884 awbbd139 PARAMS:                                
++             
+R_R7         N00197 N04664  4.7k TC=0,0 
+R_R8         N04664 N04794  2.2k TC=0,0 
+R_R9         N04790 N04794  1 TC=0,0 
+R_R10         N04851 OUT  10 TC=0,0 
+R_R11         OUT N04884  10 TC=0,0 
+C_C5         N00197 N04794  10u  TC=0,0 
+R_R12         N05005 VCC  100 TC=0,0 
+R_R13         0 N05009  10k TC=0,0 
+X_D1         N06444 N05009 awb1n4148 PARAMS:                
+X_D2         VCC N06444 awb1n4148 PARAMS:                
+V_V2         0 VEE 9Vdc
+V_V1         VCC 0 9Vdc
+R_R14         0 OUT  19 TC=0,0 
+
+**** RESUMING newtest.cir ****
+.END
+

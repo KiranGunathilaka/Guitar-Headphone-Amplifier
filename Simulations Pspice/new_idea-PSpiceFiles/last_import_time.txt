@@ -1,0 +1,8 @@
+2024-10-17T21:07:06 ===> "c:/users/nuwan/documents/pspice/new_idea-pspicefiles/pstchip.dat"
+2024-10-17T21:07:06 ===> "c:/users/nuwan/documents/pspice/new_idea-pspicefiles/pstxnet.dat"
+2024-10-17T21:07:06 ===> "c:/users/nuwan/documents/pspice/new_idea-pspicefiles/pstxprt.dat"
+2024-10-17T21:07:06 ===> "c:/users/nuwan/documents/pspice/new_idea-pspicefiles/pstdmlmodels.dat"
+2024-10-17T21:08:29 ===> "C:/Users/Nuwan/Documents/Pspice/new_idea-pspicefiles/pstchip.dat"
+2024-10-17T21:08:29 ===> "C:/Users/Nuwan/Documents/Pspice/new_idea-pspicefiles/pstxnet.dat"
+2024-10-17T21:08:29 ===> "C:/Users/Nuwan/Documents/Pspice/new_idea-pspicefiles/pstxprt.dat"
+2024-10-17T21:08:29 ===> "C:/Users/Nuwan/Documents/Pspice/new_idea-pspicefiles/pstdmlmodels.dat"

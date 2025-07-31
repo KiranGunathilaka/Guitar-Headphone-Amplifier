@@ -1,0 +1,5 @@
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\opa.lib, offset=402794, size=1193
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\bjp.lib, offset=537926, size=1409
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\bjn.lib, offset=740564, size=1545
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\di.lib, offset=37764, size=678
+ lib=C:\Cadence\SPB_23.1\tools\PSpice\Library\templates.lib, offset=1187631, size=25529

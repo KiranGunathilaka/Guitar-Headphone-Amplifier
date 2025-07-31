@@ -1,0 +1,215 @@
+
+**** 12/22/24 16:04:08 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-newsim"  [ c:\users\nuwan\documents\pspice\new_idea-pspicefiles\schematic1\newsim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "newsim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5ms  0 0.00001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NEW_IDEA
+X_U1A         N19831 N00150 N00197 VCC VEE awbne5532_3 PARAMS:                 
++                  
+R_R2         OUT N00150  10k TC=0,0 
+R_R3         N00150 N001440  10k TC=0,0 
+C_C1         N00150 N00197  33p  TC=0,0 
+C_C2         0 N001440  10u  TC=0,0 
+R_R4         N03977 N03957  10k TC=0,0 
+C_C3         N03951 N03957  2.2u  TC=0,0 
+R_R6         0 N03957  10k TC=0,0 
+C_C4         0 N03977  680p  TC=0,0 
+R_R5         0 N03951  50k TC=0,0 
+X_Q1         N04790 N05009 N05005 awbbd140 PARAMS:                             
++                
+X_Q2         VEE N00197 N04851 awbbd140 PARAMS:                                
++             
+X_Q3         N04790 N04664 N00197 awbbd139 PARAMS:                             
++                
+X_Q4         VCC N04790 N04884 awbbd139 PARAMS:                                
++             
+R_R7         N00197 N04664  4.7k TC=0,0 
+R_R8         N04664 N04790  2.2k TC=0,0 
+R_R10         N04851 OUT  10 TC=0,0 
+R_R11         OUT N04884  10 TC=0,0 
+C_C5         N00197 N04790  10u  TC=0,0 
+R_R12         N05005 VCC  100 TC=0,0 
+R_R13         0 N05009  10k TC=0,0 
+X_D1         N06444 N05009 awb1n4148 PARAMS:                
+X_D2         VCC N06444 awb1n4148 PARAMS:                
+V_V2         0 VEE 9Vdc
+V_V1         VCC 0 9Vdc
+C_C6         0 VEE  2.2u  TC=0,0 
+C_C7         0 VCC  2.2u  TC=0,0 
+R_R16         N19831 N19840  1k TC=0,0 
+R_R17         0 N19840  1k TC=0,0 
+X_U2A         N22710 N19840 N19831 VCC VEE awbne5532_3 PARAMS:                 
++                  
+R_R18         N03977 N22710  1k TC=0,0 
+R_R19         0 OUT  17 TC=0,0 
+V_V3         N03951 0  AC 1
++SIN 0 400m 1000 0 0 0
+
+**** RESUMING newsim.cir ****
+.END
+
+**** 12/22/24 16:04:08 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-newsim"  [ c:\users\nuwan\documents\pspice\new_idea-pspicefiles\schematic1\newsim.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D1.model22    X_D2.model22    
+          IS    1.000000E-09    1.000000E-09 
+           N    1.55            1.55         
+          BV  120             120            
+         IBV    1               1            
+          RS     .5              .5          
+          TT    5.000000E-09    5.000000E-09 
+         CJO    1.850000E-12    1.850000E-12 
+          VJ     .65             .65         
+           M     .18             .18         
+          EG    1.11            1.11         
+
+
+**** 12/22/24 16:04:08 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-newsim"  [ c:\users\nuwan\documents\pspice\new_idea-pspicefiles\schematic1\newsim.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_Q1.model7     X_Q2.model7     X_Q3.model4     X_Q4.model4     
+               PNP             PNP             NPN             NPN             
+       LEVEL    1               1               1               1            
+          IS  331.600000E-15  331.600000E-15   12.960000E-12   12.960000E-12 
+          EG    1.11            1.11            1.11            1.11         
+          BF  241.7           241.7           265.6           265.6          
+          NF    1               1               1.169           1.169        
+         VAF  100             100             100             100            
+         IKF     .08876          .08876          .6602           .6602       
+         ISE  293.600000E-15  293.600000E-15    5.313000E-12    5.313000E-12 
+          NE    1.311           1.311           1.449           1.449        
+          BR   10.25           10.25            6.896           6.896        
+          NR    1.157           1.157           1.17            1.17         
+         VAR  100             100              50              50            
+         IKR     .1742           .1742          1.000000E+09    1.000000E+09 
+          NC    1.5             1.5                                          
+         ISS    0               0               0               0            
+          RB    3.646           3.646            .8014           .8014       
+         RBM     .01473          .01473          .8014           .8014       
+         IRB     .1984           .1984           .15             .15         
+          RE     .01             .01             .02844          .02844      
+          RC     .275            .275            .1636           .1636       
+         CJE   74.400000E-12   74.400000E-12    1.000000E-12    1.000000E-12 
+         VJE    1.5             1.5              .75             .75         
+         MJE     .551            .551            .33             .33         
+         CJC  211.700000E-12  211.700000E-12    9.410000E-12    9.410000E-12 
+         VJC     .5              .5              .7166           .7166       
+         MJC     .364            .364            .3865           .3865       
+        XCJC     .5              .5             1               1            
+         CJS    0               0               1.000000E-12    1.000000E-12 
+         VJS     .7              .7              .75             .75         
+         MJS     .5              .5                                          
+          TF   39.800000E-09   39.800000E-09   12.850000E-09   12.850000E-09 
+         XTF     .1              .1            40.22           40.22         
+         VTF   20              20             999.000000E+03  999.000000E+03 
+         ITF    1               1             100             100            
+          TR  326.000000E-09  326.000000E-09                                 
+         XTB     .811            .811            .336            .336        
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.2             2.42            2.42         
+           D     .52             .52             .87             .87         
+
+
+**** 12/22/24 16:04:08 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-newsim"  [ c:\users\nuwan\documents\pspice\new_idea-pspicefiles\schematic1\newsim.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  OUT)    -.0076  (  VCC)    9.0000  (  VEE)   -9.0000  (N00150)    -.0096     
+
+(N00197)    -.5569 (N03951)    0.0000 (N03957)    -.0021 (N03977)    -.0042     
+
+(N04664)     .0389 (N04790)     .4497 (N04851)    -.0125 (N04884)    -.0070     
+
+(N05005)    8.5187 (N05009)    7.9140 (N06444)    8.4570 (N19831)    -.0093     
+
+(N19840)    -.0047 (N22710)    -.0044 (N001440)    -.0096                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -2.119E-02
+    V_V1        -2.153E-02
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   3.84E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/22/24 16:04:08 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-newsim"  [ c:\users\nuwan\documents\pspice\new_idea-pspicefiles\schematic1\newsim.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .41
+

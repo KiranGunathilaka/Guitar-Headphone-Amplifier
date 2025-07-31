@@ -1,0 +1,41 @@
+* source NEW_IDEA
+X_U1A         N19831 N00150 N00197 VCC VEE awbne5532_3 PARAMS:                 
++                  
+R_R2         OUT N00150  10k TC=0,0 
+R_R3         N00150 N001440  10k TC=0,0 
+C_C1         N00150 N00197  33p  TC=0,0 
+C_C2         0 N001440  10u  TC=0,0 
+R_R4         N03977 N03957  10k TC=0,0 
+C_C3         N03951 N03957  2.2u  TC=0,0 
+R_R6         0 N03957  10k TC=0,0 
+C_C4         0 N03977  680p  TC=0,0 
+R_R5         0 N03951  50k TC=0,0 
+X_Q1         N04790 N05009 N05005 awbbd140 PARAMS:                             
++                
+X_Q2         VEE N00197 N04851 awbbd140 PARAMS:                                
++             
+X_Q3         N04790 N04664 N00197 awbbd139 PARAMS:                             
++                
+X_Q4         VCC N04790 N04884 awbbd139 PARAMS:                                
++             
+R_R7         N00197 N04664  4.7k TC=0,0 
+R_R8         N04664 N04790  2.2k TC=0,0 
+R_R10         N04851 OUT  10 TC=0,0 
+R_R11         OUT N04884  10 TC=0,0 
+C_C5         N00197 N04790  10u  TC=0,0 
+R_R12         N05005 VCC  100 TC=0,0 
+R_R13         0 N05009  10k TC=0,0 
+X_D1         N06444 N05009 awb1n4148 PARAMS:                
+X_D2         VCC N06444 awb1n4148 PARAMS:                
+V_V2         0 VEE 9Vdc
+V_V1         VCC 0 9Vdc
+C_C6         0 VEE  2.2u  TC=0,0 
+C_C7         0 VCC  2.2u  TC=0,0 
+R_R16         N19831 N19840  1k TC=0,0 
+R_R17         0 N19840  1k TC=0,0 
+X_U2A         N22710 N19840 N19831 VCC VEE awbne5532_3 PARAMS:                 
++                  
+R_R18         N03977 N22710  1k TC=0,0 
+R_R19         0 OUT  17 TC=0,0 
+V_V3         N03951 0  AC 1
++SIN 0 400m 1000 0 0 0
